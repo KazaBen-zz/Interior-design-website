@@ -1,11 +1,13 @@
-.rasa{
-	margin:30px 5% 30px 0;
+.aboutMe{
+	margin:20px 0;
+}
+.rasaText{
 	color:gray;
 	font-size:1.5em;
 }
 .rasaImage{
 	width:400px;
-	margin:0 5%;
+	margin:0 5% 5% 0;
 	border-radius: 40px;
 }
 .sectionName{
@@ -14,4 +16,23 @@
 }
 .carousel{
 	margin: 0 0 10px 0;
+}
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+@media (max-width: 650px) {
+	.rasaText{
+		clear:both;
+	}
+	.rasaImage{
+		width:100%;
+		margin:0 0 20px 0;
+	}
+	
+	
+	
 }
