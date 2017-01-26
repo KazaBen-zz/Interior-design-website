@@ -56,7 +56,9 @@ body{
   -ms-transform: scale(0,1);
   transform: scale(0,1);
 }
-
+.project{
+	overflow:hidden;
+}
 .hovereffect:hover .overlay {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -93,7 +95,9 @@ body{
   -webkit-transform: translate3d(0,-100%,0);
   transform: translate3d(0,-100%,0);
 }
-
+.projectDiv{
+	cursor: pointer;
+}
 .hovereffect a, hovereffect p {
   color: #FFF;
   padding: 1em 0;
@@ -110,6 +114,9 @@ body{
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+project{
+	display:inline-block;
 }
 @media (max-width: 650px) {
 	.rasaText{
