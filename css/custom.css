@@ -1,5 +1,5 @@
-.aboutMe{
-	margin:20px 0;
+body{
+	width:100%;
 }
 .rasaText{
 	color:gray;
@@ -13,9 +13,11 @@
 .sectionName{
 	text-align: center;
 	color: slategray;
+	margin: 0 0 30px 0;
 }
 .carousel{
 	margin: 0 0 10px 0;
+	width:100%;
 }
 #toTop{
 	position: fixed;
