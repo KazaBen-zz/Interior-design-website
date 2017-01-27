@@ -1,6 +1,10 @@
 body{
 	width:100%;
 }
+.projectTitle{
+	text-align: center;
+	color:slategray;
+}
 .rasaText{
 	color:gray;
 	font-size:1.5em;
@@ -30,6 +34,7 @@ body{
 .worksThumbnail{
 	width:100%;
 	border-radius:20px;
+	margin-bottom: 20px;
 }
 .project{
 	width:45%;
@@ -56,7 +61,15 @@ body{
 	.aboutMePicture,.project{
 		width:100%;
 		margin: 0 0 30px 0;
-	}	
+	}
+	#project1{
+		border-top:none;
+		padding-top:0;
+	}
+	.project{
+		padding-top: 30px;
+		border-top: 1px solid rgb(200,200,200);
+	}
 }
 .hovereffect {
   width: 100%;
