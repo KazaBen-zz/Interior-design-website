@@ -247,3 +247,11 @@ section#contact .text-danger {
     height: 20px;
     background: #ffffff;
 }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -20px;
+    visibility: hidden;
+}
+
