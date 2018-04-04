@@ -7,9 +7,10 @@ h1{
 .projectTitle{
 	text-align: center;
 	color:black;
+  font-size: 1.2em;
 }
 .rasaText{
-	font-size:1.5em;
+	font-size:1.2em;
   color: black;
 }
 
@@ -24,7 +25,6 @@ h1{
 }
 .rasaImage{
 	width:100%;
-	border-radius: 40px;
 }
 .sectionName{
 	border-top: 1px solid rgb(200, 200, 200);
@@ -32,6 +32,7 @@ h1{
 	text-align: center;
 	color: rgb(0, 0, 0);
 	margin: 30px 0 30px 0;
+  font-size: 1.5em;
 }
 .carousel{
 	margin: 0 0 10px 0;
@@ -46,7 +47,6 @@ h1{
 }
 .worksThumbnail{
 	width:100%;
-	border-radius:20px;
 	margin-bottom: 20px;
 }
 .project{
@@ -302,4 +302,9 @@ a.anchor {
 
 ul li{
   text-align: left;
+}
+
+#linkas{
+  color: black;
+  text-align: center;
 }
