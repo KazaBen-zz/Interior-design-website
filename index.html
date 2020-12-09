@@ -1,349 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Rasa Balkiene</title>
-      <link href="css/bootstrap.css" rel="stylesheet">
-      <link href="css/custom.css" rel="stylesheet">
-      <link href="css/ekko-lightbox.css" rel="stylesheet">
-      <link rel="icon" type="image/gif" href="images/iconcrop.png" />
-   </head>
-   <body data-target=".navbar">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="">Rasa Balkienė</a>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rasa Balkiene</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/ekko-lightbox.css" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="images/iconcrop.png"/>
+</head>
+<body data-target=".navbar">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Rasa Balkienė</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#aboutMeLink">Apie mane</a></li>
+                <li><a href="#worksLink">Darbai</a></li>
+                <li><a href="#servicesLink">Paslaugos</a></li>
+                <li><a href="#contactLink">Kontaktai</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="images/carousel/1crop.jpg" class="carouselImage" alt="">
+        </div>
+        <div class="item">
+            <img src="images/carousel/2crop.jpg" class="carouselImage" alt="">
+        </div>
+        <div class="item">
+            <img src="images/carousel/3crop.jpg" class="carouselImage" alt="">
+        </div>
+        <div class="item">
+            <img src="images/carousel/4crop.jpg" class="carouselImage" alt="">
+        </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<a class="anchor" id="aboutMeLink"></a>
+<h1 class="sectionName" id="aboutMe"> Apie mane</h1>
+<div class="container">
+    <div class="aboutMe">
+        <img src="images/rasa.jpg" class=" rasaImage">
+        <p class="rasaText"> Kiekvienas žmogus yra kūrėjas. Kūryba egzistuoja visose gyvenimo srityse, ne tik mene.
+            Mokslininkai, verslininkai, gydytojai...taip pat yra savo srities kūrėjai. Mano gyvenimo būdas
+            ir kūryba - interjerai. Smagu į interjero kūrimo procesą įsitraukti kartu su užsakovu,
+            bendrauti, diskutuoti, ieškoti tinkamo sprendimo. Tuomet butas ar namas įgauna savitą
+            išraišką ir charakterį, atspindintį kliento būdo ypatumus, pomėgius ir asmenybę. Mano, kaip
+            interjero dizainerio užduotis – atsižvelgiant į Jūsų norus, tinkamai suprojektuoti erdvę,
+            ieškoti meninių sprendimų, išlaikant funkcijos, erdvės, apšvietimo, baldų ir apdailos
+            medžiagų dermę bei visumą. Atraskime džiaugsmą kurti kartu.
+        </p>
+    </div>
+</div>
+<div class="container">
+    <a class="anchor" id="worksLink"></a>
+    <div class="works">
+        <h1 class="sectionName" id="works">Darbai</h1>
+        <div class="projectRow">
+            <div id="project6" class="col-md-6">
+                <a href="images/8/thumb.jpg" data-toggle="lightbox" data-gallery="9">
+                    <div class="hovereffect projectDiv">
+                        <img src="images/8/thumb.jpg" class="img-fluid worksThumbnail">
+                        <div class="overlay">
+                            <h2>Butas Vilniuje, 2020</h2>
+                            <h2>Bendras plotas 52m²</h2>
+                            <h2>Foto: Timofej Nenarokov </h2>
+                        </div>
+                    </div>
+                </a>
+                <!-- elements not showing, use data-remote -->
+                <div data-toggle="lightbox" data-gallery="9"
+                     data-remote="images/8/1.jpg"
+                     data-title="Hidden item 1"></div>
+                <div data-toggle="lightbox" data-gallery="9"
+                     data-remote="images/8/5.jpg"
+                     data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="9"
+                     data-remote="images/8/3.jpg"
+                     data-title="Hidden item 3"></div>
+                <div data-toggle="lightbox" data-gallery="9"
+                     data-remote="images/8/4.jpg"
+                     data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="9"
+                     data-remote="images/8/6.jpg"
+                     data-title="Hidden item 7"></div>
+                <div data-toggle="lightbox" data-gallery="9"
+                     data-remote="images/8/7.jpg"
+                     data-title="Hidden item 7"></div>
+                <h2 class="projectTitle">Butas Vilniuje, 2020 </h2>
+                <p class="rasaText">
+                </p>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#aboutMeLink">Apie mane</a></li>
-                  <li><a href="#worksLink">Darbai</a></li>
-                  <li><a href="#servicesLink">Paslaugos</a></li>
-                  <li><a href="#contactLink">Kontaktai</a></li>
-               </ul>
+
+            <div id="project6" class="col-md-6">
+                <a href="images/7/thumb.jpg" data-toggle="lightbox" data-gallery="10">
+                    <div class="hovereffect projectDiv">
+                        <img src="images/7/thumb.jpg" class="img-fluid worksThumbnail">
+                        <div class="overlay">
+                            <h2>Šokių studija Vilniuje, 2019</h2>
+                            <h2>Bendras plotas 618m²</h2>
+                            <h2>Foto: Norbert Tukaj </h2>
+                        </div>
+                    </div>
+                </a>
+                <div data-toggle="lightbox" data-gallery="10"
+                     data-remote="images/7/5.jpg"
+                     data-title="Hidden item 1"></div>
+                <div data-toggle="lightbox" data-gallery="10"
+                     data-remote="images/7/2.jpg"
+                     data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="10"
+                     data-remote="images/7/3.jpg"
+                     data-title="Hidden item 3"></div>
+                <div data-toggle="lightbox" data-gallery="10"
+                     data-remote="images/7/4.jpg"
+                     data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="10"
+                     data-remote="images/7/6.jpg"
+                     data-title="Hidden item 7"></div>
+                <div data-toggle="lightbox" data-gallery="10"
+                     data-remote="images/7/7.jpg"
+                     data-title="Hidden item 8"></div>
+                <div data-toggle="lightbox" data-gallery="10"
+                     data-remote="images/7/8.jpg"
+                     data-title="Hidden item 9"></div>
+                <h2 class="projectTitle">Šokių studija Vilniuje, 2019</h2>
+                <p class="rasaText">
+                </p>
             </div>
-         </div>
-      </nav>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-         <!-- Indicators -->
-         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-         </ol>
-         <!-- Wrapper for slides -->
-         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-               <img src="images/carousel/1crop.jpg" class= "carouselImage" alt="">
-            </div>
-            <div class="item">
-               <img src="images/carousel/2crop.jpg" class= "carouselImage" alt="">
-            </div>
-            <div class="item">
-               <img src="images/carousel/3crop.jpg" class= "carouselImage" alt="">
-            </div>
-            <div class="item">
-               <img src="images/carousel/4crop.jpg" class= "carouselImage" alt="">
-            </div>
-         </div>
-         <!-- Left and right controls -->
-         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-         </a>
-         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-         </a>
-      </div>
-      <a class="anchor" id="aboutMeLink"></a>
-      <h1 class="sectionName" id="aboutMe"> Apie mane</h1>
-      <div class="container">
-         <div class="aboutMe">
-           <img src="images/rasa.jpg" class=" rasaImage">
-            <p class="rasaText"> Kiekvienas žmogus yra kūrėjas. Kūryba egzistuoja visose gyvenimo srityse, ne tik mene.
-               Mokslininkai, verslininkai, gydytojai...taip pat yra savo srities kūrėjai. Mano gyvenimo būdas
-               ir kūryba - interjerai. Smagu į interjero kūrimo procesą įsitraukti kartu su užsakovu,
-               bendrauti, diskutuoti, ieškoti tinkamo sprendimo. Tuomet butas ar namas įgauna savitą
-               išraišką ir charakterį, atspindintį kliento būdo ypatumus, pomėgius ir asmenybę. Mano, kaip
-               interjero dizainerio užduotis – atsižvelgiant į Jūsų norus, tinkamai suprojektuoti erdvę,
-               ieškoti meninių sprendimų, išlaikant funkcijos, erdvės, apšvietimo, baldų ir apdailos
-               medžiagų dermę bei visumą. Atraskime džiaugsmą kurti kartu.
-            </p>
-         </div>
-      </div>
-      <div class="container">
-         <a class="anchor" id="worksLink"></a>
-         <div class="works">
-            <h1 class="sectionName" id="works">Darbai</h1>
-            <div class = "projectRow">
-               <div id="project1" class="col-md-6">
-                  <a href="images/1/11.jpg" data-toggle="lightbox" data-gallery="1">
-                     <div class="hovereffect projectDiv">
+        </div>
+
+        <div class="projectRow">
+            <div id="project1" class="col-md-6">
+                <a href="images/1/11.jpg" data-toggle="lightbox" data-gallery="1">
+                    <div class="hovereffect projectDiv">
                         <img src="images/1/11thumbnail.jpg" class="img-fluid worksThumbnail">
                         <div class="overlay">
-                           <h2> Butas „Pušų terasose“ Vilniuje, 2016 </h2>
-                          <h2> bendras plotas 46 m ²  </h2>
-                          <h2>foto: Dainius Stankus</h2>
+                            <h2> Butas „Pušų terasose“ Vilniuje, 2016 </h2>
+                            <h2> bendras plotas 46 m ²  </h2>
+                            <h2>foto: Dainius Stankus</h2>
                         </div>
-                     </div>
-                  </a>
-                  <!-- elements not showing, use data-remote -->
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/12.jpg" data-title="Hidden item 1"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/13.jpg" data-title="Hidden item 2"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/14.jpg" data-title="Hidden item 3"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/15.jpg" data-title="Hidden item 4"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/16.jpg" data-title="Hidden item 5"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/17.jpg" data-title="Hidden item 6"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/18.jpg" data-title="Hidden item 7"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/19.jpg" data-title="Hidden item 8"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/110.jpg" data-title="Hidden item 9"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/111.jpg" data-title="Hidden item 10"></div>
-                  <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/112.jpg" data-title="Hidden item 11"></div>
-                  <h2 class="projectTitle">Butas "Pušų terasose" Vilniuje, 2016 m. </h2>
-                  <a href = "http://www.interjeras.lt/naujiena/Pusyno_ramuma_dvelkiantis_butas_Vilniuje" id = "linkas">http://www.interjeras.lt/naujiena/Pusyno_ramuma_dvelkiantis_butas_Vilniuje</a>
-                  <p class="rasaText"> 
-                  </p>
-               </div>
-               <div id="project2" class="col-md-6">
-                  <a href=images/2/1.jpg data-toggle="lightbox" data-gallery="2">
-                     <div class="hovereffect projectDiv">
+                    </div>
+                </a>
+                <!-- elements not showing, use data-remote -->
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/12.jpg"
+                     data-title="Hidden item 1"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/13.jpg"
+                     data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/14.jpg"
+                     data-title="Hidden item 3"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/15.jpg"
+                     data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/16.jpg"
+                     data-title="Hidden item 5"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/17.jpg"
+                     data-title="Hidden item 6"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/18.jpg"
+                     data-title="Hidden item 7"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/19.jpg"
+                     data-title="Hidden item 8"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/110.jpg"
+                     data-title="Hidden item 9"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/111.jpg"
+                     data-title="Hidden item 10"></div>
+                <div data-toggle="lightbox" data-gallery="1" data-remote="images/1/112.jpg"
+                     data-title="Hidden item 11"></div>
+                <h2 class="projectTitle">Butas "Pušų terasose" Vilniuje, 2016 m. </h2>
+                <a href="http://www.interjeras.lt/naujiena/Pusyno_ramuma_dvelkiantis_butas_Vilniuje" id="linkas">http://www.interjeras.lt/naujiena/Pusyno_ramuma_dvelkiantis_butas_Vilniuje</a>
+                <p class="rasaText">
+                </p>
+            </div>
+            <div id="project2" class="col-md-6">
+                <a href=images/2/1.jpg data-toggle="lightbox" data-gallery="2">
+                    <div class="hovereffect projectDiv">
                         <img src="images/2/1thumbnail.jpg" class="img-fluid worksThumbnail" alt="aaa">
                         <div class="overlay">
-                        <h2> Butas Trakuose, 2016 </h2>
-                           <h2> bendras plotas 78m²  </h2>
-<h2>foto: Dainius Stankus</h2>
+                            <h2> Butas Trakuose, 2016 </h2>
+                            <h2> bendras plotas 78m²  </h2>
+                            <h2>foto: Dainius Stankus</h2>
                         </div>
-                     </div>
-                  </a>
-                  <!-- elements not showing, use data-remote -->
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/2.jpg" data-title="Hidden item 2"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/3.jpg" data-title="Hidden item 3"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/4.jpg" data-title="Hidden item 4"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/5.jpg" data-title="Hidden item 5"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/6.jpg" data-title="Hidden item 6"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/7.jpg" data-title="Hidden item 7"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/8.jpg" data-title="Hidden item 8"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/9.jpg" data-title="Hidden item 9"></div>
-                  <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/10.jpg" data-title="Hidden item 10"></div>
-                  <h2 class="projectTitle"> Butas Trakuose, 2016 </h2>
-                  <p class="rasaText">
-                  </p>
-               </div>
+                    </div>
+                </a>
+                <!-- elements not showing, use data-remote -->
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/2.jpg"
+                     data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/3.jpg"
+                     data-title="Hidden item 3"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/4.jpg"
+                     data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/5.jpg"
+                     data-title="Hidden item 5"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/6.jpg"
+                     data-title="Hidden item 6"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/7.jpg"
+                     data-title="Hidden item 7"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/8.jpg"
+                     data-title="Hidden item 8"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/9.jpg"
+                     data-title="Hidden item 9"></div>
+                <div data-toggle="lightbox" data-gallery="2" data-remote="images/2/10.jpg"
+                     data-title="Hidden item 10"></div>
+                <h2 class="projectTitle"> Butas Trakuose, 2016 </h2>
+                <p class="rasaText">
+                </p>
             </div>
-            <div class = "projectRow">
-                            <div id="project6" class="col-md-6">
-                  <a href= "images/6_butas_berzu/butas Berzu terasose_1.jpg" data-toggle="lightbox" data-gallery="6">
-                     <div class="hovereffect projectDiv">
+        </div>
+        <div class="projectRow">
+            <div id="project6" class="col-md-6">
+                <a href="images/6_butas_berzu/butas Berzu terasose_1.jpg" data-toggle="lightbox" data-gallery="6">
+                    <div class="hovereffect projectDiv">
                         <img src="images/6_butas_berzu/thumbnail.jpg" class="img-fluid worksThumbnail">
                         <div class="overlay">
-                           <h2> Butas “Beržų terasose” Vilniuje, 2016</h2>
-<h2> bendras plotas 105m²</h2>  
-<h2> foto: Dainius Stankus</h2>
+                            <h2> Butas “Beržų terasose” Vilniuje, 2016</h2>
+                            <h2> bendras plotas 105m²</h2>
+
+                            <h2> foto: Dainius Stankus</h2>
                         </div>
-                     </div>
-                  </a>
-                  <!-- elements not showing, use data-remote -->
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_2.jpg" data-title="Hidden item 2"></div>
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_3.jpg" data-title="Hidden item 3"></div>
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_4.jpg" data-title="Hidden item 4"></div>
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_5.jpg" data-title="Hidden item 5"></div>
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_6.jpg" data-title="Hidden item 6"></div>
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_7.jpg" data-title="Hidden item 7"></div>
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_8.jpg" data-title="Hidden item 8"></div>
-                  <div data-toggle="lightbox" data-gallery="6" data-remote="images/6_butas_berzu/butas Berzu terasose_9.jpg" data-title="Hidden item 9"></div>
-                  <h2 class="projectTitle">Butas “Beržų terasose” Vilniuje, 2016 </h2>
-                  <p class="rasaText">
-                  </p>
-               </div>
-            
-               <div id="project3" class="col-md-6">
-                  <a href=images/3/1.jpg data-toggle="lightbox" data-gallery="3">
-                     <div class="hovereffect projectDiv">
+                    </div>
+                </a>
+                <!-- elements not showing, use data-remote -->
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_2.jpg" data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_3.jpg" data-title="Hidden item 3"></div>
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_4.jpg" data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_5.jpg" data-title="Hidden item 5"></div>
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_6.jpg" data-title="Hidden item 6"></div>
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_7.jpg" data-title="Hidden item 7"></div>
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_8.jpg" data-title="Hidden item 8"></div>
+                <div data-toggle="lightbox" data-gallery="6"
+                     data-remote="images/6_butas_berzu/butas Berzu terasose_9.jpg" data-title="Hidden item 9"></div>
+                <h2 class="projectTitle">Butas “Beržų terasose” Vilniuje, 2016 </h2>
+                <p class="rasaText">
+                </p>
+            </div>
+            <div id="project3" class="col-md-6">
+                <a href=images/3/1.jpg data-toggle="lightbox" data-gallery="3">
+                    <div class="hovereffect projectDiv">
                         <img src="images/3/1thumbnail.jpg" class="img-fluid worksThumbnail">
                         <div class="overlay">
-                           <h2> Modernus butas jaunai šeimai, 2015</h2>
-<h2>bendras plotas 168m² </h2> 
-<h2>vizualizacija</h2>
+                            <h2> Modernus butas jaunai šeimai, 2015</h2>
+                            <h2>bendras plotas 168m² </h2>
+
+                            <h2>vizualizacija</h2>
                         </div>
-                     </div>
-                  </a>
-                  <!-- elements not showing, use data-remote -->
-                  <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/2.jpg" data-title="Hidden item 2"></div>
-                  <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/3.jpg" data-title="Hidden item 3"></div>
-                  <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/4.jpg" data-title="Hidden item 4"></div>
-                  <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/5.jpg" data-title="Hidden item 5"></div>
-                  <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/6.jpg" data-title="Hidden item 6"></div>
-                  <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/7.jpg" data-title="Hidden item 7"></div>
-                  <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/8.jpg" data-title="Hidden item 8"></div>
-                  <h2 class="projectTitle">Modernus butas jaunai šeimai, 2015 </h2>
-                  <p class="rasaText">
-                  </p>
-               </div>
-               
-               
-               
+                    </div>
+                </a>
+                <!-- elements not showing, use data-remote -->
+                <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/2.jpg"
+                     data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/3.jpg"
+                     data-title="Hidden item 3"></div>
+                <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/4.jpg"
+                     data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/5.jpg"
+                     data-title="Hidden item 5"></div>
+                <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/6.jpg"
+                     data-title="Hidden item 6"></div>
+                <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/7.jpg"
+                     data-title="Hidden item 7"></div>
+                <div data-toggle="lightbox" data-gallery="3" data-remote="images/3/8.jpg"
+                     data-title="Hidden item 8"></div>
+                <h2 class="projectTitle">Modernus butas jaunai šeimai, 2015 </h2>
+                <p class="rasaText">
+                </p>
             </div>
-            
-                   <div class = "projectRow">
-                    <div id="project4" class="col-md-6">
-                  <a href= "images/4_butas_kalnenuose/butas_kalnenuose_1.jpg" data-toggle="lightbox" data-gallery="4">
-                     <div class="hovereffect projectDiv">
+        </div>
+        <div class="projectRow">
+            <div id="project4" class="col-md-6">
+                <a href="images/4_butas_kalnenuose/butas_kalnenuose_1.jpg" data-toggle="lightbox" data-gallery="4">
+                    <div class="hovereffect projectDiv">
                         <img src="images/4_butas_kalnenuose/thumbnail.jpg" class="img-fluid worksThumbnail">
                         <div class="overlay">
-                           <h2> Butas Kalnėnuose, 2014</h2>
- <h2>bendras plotas 80m²  </h2>
- <h2>foto: Dainius Stankus</h2>
+                            <h2> Butas Kalnėnuose, 2014</h2>
+                            <h2>bendras plotas 80m²  </h2>
+                            <h2>foto: Dainius Stankus</h2>
                         </div>
-                     </div>
-                  </a>
-                  <!-- elements not showing, use data-remote -->
-                  <div data-toggle="lightbox" data-gallery="4" data-remote="images/4_butas_kalnenuose/butas_kalnenuose_2.jpg" data-title="Hidden item 2"></div>
-                  <div data-toggle="lightbox" data-gallery="4" data-remote="images/4_butas_kalnenuose/butas_kalnenuose_3.jpg" data-title="Hidden item 3"></div`
-                  <div data-toggle="lightbox" data-gallery="4" data-remote="images/4_butas_kalnenuose/butas_kalnenuose_4.jpg" data-title="Hidden item 4"></div>
-                  <div data-toggle="lightbox" data-gallery="4" data-remote="images/4_butas_kalnenuose/butas_kalnenuose_5.jpg" data-title="Hidden item 5"></div>
-                  <div data-toggle="lightbox" data-gallery="4" data-remote="images/4_butas_kalnenuose/butas_kalnenuose_6.jpg" data-title="Hidden item 6"></div>
-                  <div data-toggle="lightbox" data-gallery="4" data-remote="images/4_butas_kalnenuose/butas_kalnenuose_7.jpg" data-title="Hidden item 7"></div>
-                  <div data-toggle="lightbox" data-gallery="4" data-remote="images/4_butas_kalnenuose/butas_kalnenuose_8.jpg" data-title="Hidden item 8"></div>
-                  <h2 class="projectTitle">Butas Kalnėnuose, 2014 </h2>
-                  <p class="rasaText">
-                  </p>
-               </div>
-               <div id="project5" class="col-md-6">
-                  <a href= "images/5_butas_2_asmenu/butas 2ju asmenu seimai5.jpg" data-toggle="lightbox" data-gallery="5">
-                     <div class="hovereffect projectDiv">
+                    </div>
+                </a>
+                <!-- elements not showing, use data-remote -->
+                <div data-toggle="lightbox" data-gallery="4"
+                     data-remote="images/4_butas_kalnenuose/butas_kalnenuose_2.jpg" data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="4"
+                     data-remote="images/4_butas_kalnenuose/butas_kalnenuose_3.jpg" data-title="Hidden item 3">
+                </div`
+                <div data-toggle="lightbox" data-gallery="4"
+                     data-remote="images/4_butas_kalnenuose/butas_kalnenuose_4.jpg" data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="4"
+                     data-remote="images/4_butas_kalnenuose/butas_kalnenuose_5.jpg" data-title="Hidden item 5"></div>
+                <div data-toggle="lightbox" data-gallery="4"
+                     data-remote="images/4_butas_kalnenuose/butas_kalnenuose_6.jpg" data-title="Hidden item 6"></div>
+                <div data-toggle="lightbox" data-gallery="4"
+                     data-remote="images/4_butas_kalnenuose/butas_kalnenuose_7.jpg" data-title="Hidden item 7"></div>
+                <div data-toggle="lightbox" data-gallery="4"
+                     data-remote="images/4_butas_kalnenuose/butas_kalnenuose_8.jpg" data-title="Hidden item 8"></div>
+                <h2 class="projectTitle">Butas Kalnėnuose, 2014 </h2>
+                <p class="rasaText">
+                </p>
+            </div>
+            <div id="project5" class="col-md-6">
+                <a href="images/5_butas_2_asmenu/butas 2ju asmenu seimai5.jpg" data-toggle="lightbox" data-gallery="5">
+                    <div class="hovereffect projectDiv">
                         <img src="images/5_butas_2_asmenu/thumbnail.jpg" class="img-fluid worksThumbnail">
                         <div class="overlay">
-                           <h2> Butas dviejų asmenų šeimai, 2014</h2>
-<h2>bendras plotas 78m²  </h2>
-<h2>foto: Dainius Stankus </h2>
+                            <h2> Butas dviejų asmenų šeimai, 2014</h2>
+                            <h2>bendras plotas 78m²  </h2>
+                            <h2>foto: Dainius Stankus </h2>
                         </div>
-                     </div>
-                  </a>
-                  <!-- elements not showing, use data-remote -->
-                  <div data-toggle="lightbox" data-gallery="5" data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai1.jpg" data-title="Hidden item 1"></div>
-                  <div data-toggle="lightbox" data-gallery="5" data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai2.jpg" data-title="Hidden item 2"></div>
-                  <div data-toggle="lightbox" data-gallery="5" data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai3.jpg" data-title="Hidden item 3"></div>
-                  <div data-toggle="lightbox" data-gallery="5" data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai4.jpg" data-title="Hidden item 4"></div>
-                  <div data-toggle="lightbox" data-gallery="5" data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai6.jpg" data-title="Hidden item 6"></div>
-                  <div data-toggle="lightbox" data-gallery="5" data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai7.jpg" data-title="Hidden item 7"></div>
-                  <h2 class="projectTitle">Butas dviejų asmenų šeimai, 2014 </h2>
-                  <p class="rasaText">
-                  </p>
-               </div>
-               
-
-               
+                    </div>
+                </a>
+                <!-- elements not showing, use data-remote -->
+                <div data-toggle="lightbox" data-gallery="5"
+                     data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai1.jpg"
+                     data-title="Hidden item 1"></div>
+                <div data-toggle="lightbox" data-gallery="5"
+                     data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai2.jpg"
+                     data-title="Hidden item 2"></div>
+                <div data-toggle="lightbox" data-gallery="5"
+                     data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai3.jpg"
+                     data-title="Hidden item 3"></div>
+                <div data-toggle="lightbox" data-gallery="5"
+                     data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai4.jpg"
+                     data-title="Hidden item 4"></div>
+                <div data-toggle="lightbox" data-gallery="5"
+                     data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai6.jpg"
+                     data-title="Hidden item 6"></div>
+                <div data-toggle="lightbox" data-gallery="5"
+                     data-remote="images/5_butas_2_asmenu/butas 2ju asmenu seimai7.jpg"
+                     data-title="Hidden item 7"></div>
+                <h2 class="projectTitle">Butas dviejų asmenų šeimai, 2014 </h2>
+                <p class="rasaText">
+                </p>
             </div>
-            
-            
-         </div>
-      </div>
-      <div class= "container">
-      <a class = "anchor" id="servicesLink"></a>
-      <h1 class="sectionName" id="works">Paslaugos</h1>
-      <!------ Include the above in your HEAD tag ---------->
-      <div class="servicesList">
+        </div>
+</div>
+<div class="container">
+    <a class="anchor" id="servicesLink"></a>
+    <h1 class="sectionName" id="works">Paslaugos</h1>
+    <!------ Include the above in your HEAD tag ---------->
+    <div class="servicesList">
         <ul>
-          <li>interjero pavyzdžių parinkimas</li>
-          <li>baldų ir pertvarų išdėstymo planai </li>
-          <li> elektros taškų išdėstymo planas: apšvietimas, rozetės, jungtukai, svarbiausios išklotinės</li>
-          <li>šviestuvų pasiūlymai </li>
-          <li>lubų planas </li>
-          <li> santechnikos prietaisų išdėstymas</li>
-          <li>santechnikos prietaisų pasiūlymai </li>
-          <li> grindų dangos planas</li>
-          <li> grindų dangos parinkimas ir pasiūlymai</li>
-          <li>plytelių parinkimas </li>
-          <li>vonios kambarių, sanmazgų sienų ir grindų išklotinės su pasirinktomis plytelėmis </li>
-          <li> baldų projektavimas: virtuvė, korpusiniai baldai.</li>
-          <li>kitų baldų parinkimas </li>
-          <li>durų pasiūlymai</li>
-          <li>židinio, laiptų pavyzdžių parinkimas, eskizai, brėžiniai</li>
-          <li>sienų spalvų ir dangų parinkimas </li>
-          <li>kitų interjero detalių parinkimas: užuolaidos,kilimai, paveikslai, nuotraukos ir t.t </li>
-          <li> autorinė priežiūra (už techninį darbų išpildymą  atsako staybos darbus atliekanti įmonė)</li>
-          <li>projekto korekcijos reikalingos darbų eigoje </li>
-          
+            <li>interjero pavyzdžių parinkimas</li>
+            <li>baldų ir pertvarų išdėstymo planai</li>
+            <li> elektros taškų išdėstymo planas: apšvietimas, rozetės, jungtukai, svarbiausios išklotinės</li>
+            <li>šviestuvų pasiūlymai</li>
+            <li>lubų planas</li>
+            <li> santechnikos prietaisų išdėstymas</li>
+            <li>santechnikos prietaisų pasiūlymai</li>
+            <li> grindų dangos planas</li>
+            <li> grindų dangos parinkimas ir pasiūlymai</li>
+            <li>plytelių parinkimas</li>
+            <li>vonios kambarių, sanmazgų sienų ir grindų išklotinės su pasirinktomis plytelėmis</li>
+            <li> baldų projektavimas: virtuvė, korpusiniai baldai.</li>
+            <li>kitų baldų parinkimas</li>
+            <li>durų pasiūlymai</li>
+            <li>židinio, laiptų pavyzdžių parinkimas, eskizai, brėžiniai</li>
+            <li>sienų spalvų ir dangų parinkimas</li>
+            <li>kitų interjero detalių parinkimas: užuolaidos,kilimai, paveikslai, nuotraukos ir t.t</li>
+            <li> autorinė priežiūra (už techninį darbų išpildymą  atsako staybos darbus atliekanti įmonė)</li>
+            <li>projekto korekcijos reikalingos darbų eigoje</li>
         </ul>
-      </div>
-      </div>
-      </div>
-      <a class="anchor" id="contactLink"></a>
-      <section id="contact" style="">
-         <div class="container">
-            <div class="row">
-               <div class="about_our_company" style="margin-bottom: 20px;">
-                  <h1 style="color:#fff;">Susisiekite su manimi</h1>
-               </div>
+    </div>
+</div>
+</div>
+<a class="anchor" id="contactLink"></a>
+<section id="contact" style="">
+    <div class="container">
+        <div class="row">
+            <div class="about_our_company" style="margin-bottom: 20px;">
+                <h1 style="color:#fff;">Susisiekite su manimi</h1>
             </div>
-            <div class="row">
-               <div class="col-md-8">
-                  <form name="sentMessage" id="contactForm" novalidate="" method = "post" action="form_process.php">
-                     <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <form name="sentMessage" id="contactForm" novalidate="" method="post" action="form_process.php">
+                    <div class="row">
                         <div class="col-md-6">
-                           <div class="form-group">
-                              <input type="text" name="name" class="form-control" placeholder="Jūsų vardas *" id="name" required="" data-validation-required-message="Please enter your name.">
-                              <p class="help-block text-danger"></p>
-                           </div>
-                           <div class="form-group">
-                              <input type="email" name = "email" class="form-control" placeholder="Jūsų Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
-                              <p class="help-block text-danger"></p>
-                           </div>
-                           <div class="form-group">
-                              <input type="tel" name = "phone" class="form-control" placeholder="Jūsų telefono numeris *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
-                              <p class="help-block text-danger"></p>
-                           </div>
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Jūsų vardas *"
+                                       id="name" required="" data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Jūsų Email *"
+                                       id="email" required=""
+                                       data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" class="form-control"
+                                       placeholder="Jūsų telefono numeris *" id="phone" required=""
+                                       data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                           <div class="form-group">
-                              <textarea class="form-control" name = "message" placeholder="Jūsų žinutė *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
-                              <p class="help-block text-danger"></p>
-                           </div>
+                            <div class="form-group">
+										<textarea class="form-control" name="message" placeholder="Jūsų žinutė *" id="message"
+                                                  required=""
+                                                  data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
-                           <div id="success"></div>
-                           <button type="submit" class="btn btn-xl get button" onSubmit="">Išsiųsti</button>
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-xl get button" onSubmit="">Išsiųsti</button>
                         </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-4">
-                  <p style="color:#fff;">
-                     <strong><i class="fa fa-map-marker"></i> Rasa Balkiene</strong><br>
-                  </p>
-                  <p style="color:#fff;"><strong><i class="fa fa-phone"></i>Telefono numeris</strong><br>
-                     +370 61 402 402
-                  </p>
-                  <p style="color:#fff;">
-                     <strong><i class="fa fa-envelope"></i>  Email Address</strong><br>
-                     rasa.balke@gmail.com
-                  </p>
-                  <p></p>
-               </div>
+                    </div>
+                </form>
             </div>
-         </div>
-      </section>
-      <footer>
-
-      </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script src="js/ekko-lightbox.js"></script>
-      <script>
-        $(function() {
-            $(".button").click(function() {
+            <div class="col-md-4">
+                <p style="color:#fff;">
+                    <strong><i class="fa fa-map-marker"></i> Rasa Balkiene</strong><br>
+                </p>
+                <p style="color:#fff;"><strong><i class="fa fa-phone"></i>Telefono numeris</strong><br>
+                    +370 61 402 402
+                </p>
+                <p style="color:#fff;">
+                    <strong><i class="fa fa-envelope"></i> Email Address</strong><br>
+                    rasa.balke@gmail.com
+                </p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/ekko-lightbox.js"></script>
+<script>
+    $(function () {
+        $(".button").click(function () {
             var data = {
                 name: $("#name").val(),
                 phone: $("#phone").val(),
@@ -354,14 +479,13 @@
                 type: "POST",
                 url: "form_process.php",
                 data: data,
-                success: function(){
-                  alert("Žinutė išsiųsta. Atsakysime jums kuo greičiau :)");
+                success: function () {
+                    alert("Žinutė išsiųsta. Atsakysime jums kuo greičiau :)");
                 }
             });
-                return false;
-            });
+            return false;
         });
-      </script>
-
-   </body>
+    });
+</script>
+</body>
 </html>
