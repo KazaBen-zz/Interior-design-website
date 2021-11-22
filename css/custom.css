@@ -187,11 +187,6 @@ h1{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-section#contact {
-    background-color: #222222;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 section {
     padding: 30px 0PX;
 }
@@ -249,9 +244,6 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
-.about_our_company{
-    text-align: center;
-}
 .about_our_company h1{
     font-size: 25px;
 }
